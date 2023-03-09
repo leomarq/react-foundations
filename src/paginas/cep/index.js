@@ -4,7 +4,7 @@ export default function Cep() {
     return(
     <>
         <h1>Pesquisar CEP</h1>
-        <h3>Forms/placeholder</h3>
+        <h3>Forms/placeholder  as</h3>
     </>
     )
 }
