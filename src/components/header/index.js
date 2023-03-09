@@ -13,8 +13,9 @@ function Header() {
 
                 <nav>
                     <ul>
-                        <li>Index</li>
-                        <li>Sobre</li>
+                        <li><a href='/'>Index</a></li>
+                        <li><a href='/sobre'>Sobre</a></li>
+                        <li><a href='/cep'>Cep</a></li>
                     </ul>
                 </nav>
 
