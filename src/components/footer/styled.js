@@ -1,7 +1,8 @@
 import styled from 'styled-components';
 
 export const AreaFooter = styled.div `
-    background-color: #29ffc9;
+    background-color: blanchedalmond;
+    color: saddlebrown;
     text-align: center;
     padding: 20px;
     font-size: 12px;

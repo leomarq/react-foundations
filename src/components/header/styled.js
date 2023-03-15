@@ -2,10 +2,10 @@ import styled from 'styled-components';
 
 export const AreaHeader = styled.div `
     height: 60px;
-    background-color: #392a35;
-    color: honeydew;
+    background-color: blanchedalmond;
+    color: saddlebrown;
     
-    a {text-decoration: none; color: honeydew;}
+    a {text-decoration: none; color: saddlebrown;}
     a:visited {text-decoration: none;}
     a:hover {text-decoration: none;}
     a:focus {text-decoration: none;}
