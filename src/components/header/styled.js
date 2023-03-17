@@ -3,9 +3,9 @@ import styled from 'styled-components';
 export const AreaHeader = styled.div `
     height: 60px;
     background-color: blanchedalmond;
-    color: saddlebrown;
+    color: maroon;
     
-    a {text-decoration: none; color: saddlebrown;}
+    a {text-decoration: none; color: maroon;}
     a:visited {text-decoration: none;}
     a:hover {text-decoration: none;}
     a:focus {text-decoration: none;}
