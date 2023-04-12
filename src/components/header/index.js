@@ -14,11 +14,10 @@ function Header() {
 
                 <nav>
                     <ul>
-                        <li><a href='/'>Index</a></li>
-                        <li><a href='/sobre'>Sobre</a></li>
-                        <li><a href='/cep'>Cep</a></li>
-                        <li><Link to='/sobre'>Sobre v2</Link></li>
-                        <li><Link to='/'>Index v2</Link></li>
+                        <li><Link to='/'>Index</Link></li>
+                        <li><Link to='/sobre'>Sobre</Link></li>
+                        <li><Link to='/cep'>Cep</Link></li>
+                        <li><Link to='/email'>E-mail</Link></li>
                     </ul>
                 </nav>
 
