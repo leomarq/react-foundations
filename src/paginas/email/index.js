@@ -1,6 +1,7 @@
 import React from "react";
 import { ContainerPage, TitlePage } from "../../components/main";
 import { useState } from "react";
+import emailjs from "@emailjs/browser";
 
 export default function Email() {
 
@@ -14,7 +15,13 @@ export default function Email() {
             return;
         }
 
-        alert('abcd');
+        const templateParams = {
+            from_name:name,
+            message:message,
+            email:email
+        }
+
+        emailjs.send("service_9y3lpbp","template_qy09926",templateParams,"7Wm3Vni8gk3yrbJAy")
     }
 
     return (
